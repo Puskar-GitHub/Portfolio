@@ -8,7 +8,7 @@
     /* border: 0px solid transparent; */
     height: 100vh;
     /* width: 98vw; */
-    background: url(/pics/home.jpg) no-repeat;
+    background: url(home.jpg) no-repeat;
     background-size: cover;
     margin: 0px;
     padding: 0px;
@@ -68,7 +68,78 @@ nav {
 
 }
 
+.about {
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
 
+.about img {
+	padding-left: 5vw;
+	height: auto;
+	/* width: 400px; */
+}
+
+span {
+	color: #f9004d;
+}
+
+.about-text {
+	padding-left: 120px;
+    padding-top: 100px;
+	width: 620px;
+}
+
+.main {
+	width: 95vw;
+	/* max-width: 95%; */
+	margin: 10000;
+	display: flex;
+	align-items: auto;
+	justify-content: space-around;
+}
+
+.about-text h2 {
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+  
+}
+
+.about-text h5 {
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+
+.about-text p {
+	color: #fcfc;
+	letter-spacing: 1px;
+	line-height: 45px;
+	font-size: 20px;
+    margin-top: 50px;
+	margin-bottom: 45px;
+}
+
+button {
+	background-color: #f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s;
+}
+
+button:hover {
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
 
 .service {
     /* border: 5px solid red; */
@@ -77,6 +148,10 @@ nav {
     padding: 100px 0px;
 }
 
+.leststalk{
+
+    text-decoration: none;
+}
 .title h2 {
     color: white;
     font-size: 75px;
@@ -93,12 +168,12 @@ nav {
 }
 
 .card {
-    height: 365px;
-    width: 335px;
+    height: 500px;
+    width: 340px;
     padding: 20px 35px;
     background: #191919;
     border-radius: 20px;
-    margin: 15px;
+    margin: 25px;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -116,15 +191,15 @@ nav {
 
 h5 {
     color: white;
-    font-size: 23px;
-    margin-bottom: 15px;
+    font-size: 30px;
+    margin-bottom: 30px;
 }
 
 .pra p {
     color: #fcfc;
-    font-size: 16px;
-    line-height: 27px;
-    margin-bottom: 25px;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 40px;
 }
 
 .card .button {
